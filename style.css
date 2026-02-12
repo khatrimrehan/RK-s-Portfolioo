@@ -32,10 +32,10 @@
 #cursor{
   height: 12px;
   width: 12px;
-  background-color: #ffffff1;
+  background-color: #fffffff3;
   border-radius: 50%;
   filter: blur(0.5px);
- 
+
   position: fixed;
   z-index: 9;
 }
@@ -46,7 +46,7 @@
   background-color: #ffffff15;
   border-radius: 50%;
   filter: blur(90px);
- 
+  
   position: fixed;
  z-index: 9;
 }
@@ -234,5 +234,35 @@ background-color: rgba(0
   width: 100%;
 }
 
+.get-started-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Inter, sans-serif;
+  color: white;
+  text-decoration: none;
 
+  /* Gradient background */
+  background: linear-gradient(135deg, #000000, #333333);
 
+  /* Rounded shape */
+  border-radius: 999px;
+
+  /* Smooth effect */
+  transition: all 0.3s ease;
+
+  /* Shadow */
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+/* Hover effect */
+.get-started-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+/* Click effect */
+.get-started-btn:active {
+  transform: scale(0.97);
+}
